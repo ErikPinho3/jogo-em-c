@@ -7,3 +7,4 @@ O objetivo do jogo e pegar a chave em cada nivel, abrir a porta e passar por ela
 
 integrantes: Erik Deutscher Sousa Pinho
              Ronaldo Lima Moraes de Souza
+             Davi Vicenzo Soares Vieira
