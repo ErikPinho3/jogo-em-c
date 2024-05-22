@@ -574,7 +574,8 @@ int main()
    			                                         	}
    			                                         	else if (playerY == 30 && playerX == 30)
    			                                         	{
-   			                                        		 printf("voce ganhou!!!!");
+   			                                        		system("cls"); 
+															printf("voce ganhou!!!!");
    			                                        		 exit(0);
    														 }
    			                                 	}
