@@ -420,7 +420,7 @@ int main()
                             	hasKey = 1;
                             	collectKey();
                         	}
-                        	else if (((playerY == 5 || playerY == 7) && (playerX == 6 || playerX == 8)) || ((playerY == 6 || playerY == 8) && (playerX == 5 || playerX == 7)) && hasKey == 1)
+                        	else if (((playerY == 5 || playerY == 7) && (playerX == 6 || playerX == 8)&& hasKey == 1) || ((playerY == 6 || playerY == 8) && (playerX == 5 || playerX == 7)) && hasKey == 1)
                         	{
                             	map1[7][7] = DOOR_OPEN;
                             	printf("voce abriu a porta");
@@ -488,7 +488,7 @@ int main()
                                             	map2[7][8] = '.';
                                             	map2[6][7] = '.';
                                         	}
-                                        	else if (((playerY == 5 || playerY == 7) && (playerX == 6 || playerX == 8)) || ((playerY == 6 || playerY == 8) && (playerX == 5 || playerX == 7)) && hasKey == 1)
+                                        	else if (((playerY == 5 || playerY == 7) && (playerX == 6 || playerX == 8) && hasKey == 1) || ((playerY == 6 || playerY == 8) && (playerX == 5 || playerX == 7)) && hasKey == 1)
                                         	{
                                             	map2[7][7] = DOOR_OPEN;
                                             	printf("voce abriu a porta");
@@ -566,7 +566,7 @@ int main()
    			                                             	map3[30][31] = '.';
    			                                             	map3[29][30] = '.';
    			                                         	}
-   			                                         	else if (((playerY == 28 || playerY == 30) && (playerX == 29 || playerX == 31)) || ((playerY == 29 || playerY == 31) && (playerX == 28 || playerX == 30)) && hasKey == 1)
+   			                                         	else if (((playerY == 28 || playerY == 30) && (playerX == 29 || playerX == 31)&& hasKey == 1) || ((playerY == 29 || playerY == 31) && (playerX == 28 || playerX == 30)) && hasKey == 1)
    			                                         	{
    			                                             	map3[30][30] = DOOR_OPEN;
    			                                             	printf("voce abriu a porta");
